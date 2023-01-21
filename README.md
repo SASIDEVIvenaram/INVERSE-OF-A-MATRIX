@@ -19,10 +19,13 @@ End the program
 
 ## Program:
 ```
+#Program to find the inverse of a matrix.
+#Developed by: SASIDEVI.V
+#RegisterNumber: 22008940
 import numpy as np
-A=np.array([[1,0,3],[-1,2,-2],[2,3,-1]])
-inverse=np.linalg.inv(A)
-print(inverse)
+A=np.array([[2,1,1],[1,1,1],[1,-1,2]])
+B=np.linalg.inv(A)
+print(B)
 ```
 ## Output:
 ![](inverseout.png)
